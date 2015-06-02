@@ -1,0 +1,147 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   '--save',
+1 verbose cli   'query-string' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose node symlink /usr/bin/node
+5 verbose config Skipping project config: /home/simon/.npmrc. (matches userconfig)
+6 verbose cache add [ '-', null ]
+7 verbose cache add name=undefined spec="-" args=["-",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '-',
+8 verbose parsed url   path: '-',
+8 verbose parsed url   href: '-' }
+9 verbose cache add [ 'query-string', null ]
+10 verbose cache add name=undefined spec="query-string" args=["query-string",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'query-string',
+11 verbose parsed url   path: 'query-string',
+11 verbose parsed url   href: 'query-string' }
+12 silly lockFile 3bc15c8a- -
+13 verbose lock - /home/simon/.npm/3bc15c8a-.lock
+14 silly lockFile 1854830d-query-string query-string
+15 verbose lock query-string /home/simon/.npm/1854830d-query-string.lock
+16 silly lockFile 1854830d-query-string query-string
+17 silly lockFile 1854830d-query-string query-string
+18 silly lockFile 3bc15c8a- -
+19 silly lockFile 3bc15c8a- -
+20 verbose addNamed [ 'query-string', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile dea6e4f2-query-string query-string@
+23 verbose lock query-string@ /home/simon/.npm/dea6e4f2-query-string.lock
+24 verbose addNamed [ '-', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile c75fe0d4- -@
+27 verbose lock -@ /home/simon/.npm/c75fe0d4-.lock
+28 silly addNameRange { name: 'query-string', range: '*', hasData: false }
+29 verbose request where is /query-string
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id 4d256818ad7eda0b
+32 verbose url raw /query-string
+33 verbose url resolving [ 'https://registry.npmjs.org/', './query-string' ]
+34 verbose url resolved https://registry.npmjs.org/query-string
+35 verbose request where is https://registry.npmjs.org/query-string
+36 info trying registry request attempt 1 at 16:24:40
+37 http GET https://registry.npmjs.org/query-string
+38 silly addNameRange { name: '-', range: '*', hasData: false }
+39 verbose request where is /-
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /-
+42 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+43 verbose url resolved https://registry.npmjs.org/-
+44 verbose request where is https://registry.npmjs.org/-
+45 info trying registry request attempt 1 at 16:24:40
+46 http GET https://registry.npmjs.org/-
+47 http 200 https://registry.npmjs.org/query-string
+48 silly registry.get cb [ 200,
+48 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+48 silly registry.get     etag: '"6902IG8WCY52BEW23NUHMEQ9Y"',
+48 silly registry.get     'content-type': 'application/json',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     'content-length': '16327',
+48 silly registry.get     'accept-ranges': 'bytes',
+48 silly registry.get     date: 'Tue, 02 Jun 2015 15:24:41 GMT',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     age: '0',
+48 silly registry.get     connection: 'keep-alive',
+48 silly registry.get     'x-served-by': 'cache-lcy1126-LCY',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '1',
+48 silly registry.get     'x-timer': 'S1433258680.866696,VS0,VE152',
+48 silly registry.get     vary: 'Accept' } ]
+49 http 404 https://registry.npmjs.org/-
+50 silly registry.get cb [ 404,
+50 silly registry.get   { 'content-type': 'application/json',
+50 silly registry.get     'cache-control': 'max-age=0',
+50 silly registry.get     'content-length': '57',
+50 silly registry.get     'accept-ranges': 'bytes',
+50 silly registry.get     date: 'Tue, 02 Jun 2015 15:24:41 GMT',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     age: '0',
+50 silly registry.get     connection: 'keep-alive',
+50 silly registry.get     'x-served-by': 'cache-lhr6332-LHR',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1433258680.869975,VS0,VE160' } ]
+51 silly addNameRange number 2 { name: 'query-string', range: '*', hasData: true }
+52 silly addNameRange versions [ 'query-string',
+52 silly addNameRange   [ '0.1.0',
+52 silly addNameRange     '0.1.1',
+52 silly addNameRange     '0.2.0',
+52 silly addNameRange     '0.3.0',
+52 silly addNameRange     '0.3.1',
+52 silly addNameRange     '0.4.0',
+52 silly addNameRange     '0.4.1',
+52 silly addNameRange     '1.0.0',
+52 silly addNameRange     '1.0.1',
+52 silly addNameRange     '2.0.0',
+52 silly addNameRange     '2.1.0',
+52 silly addNameRange     '2.2.0' ] ]
+53 verbose addNamed [ 'query-string', '2.2.0' ]
+54 verbose addNamed [ '2.2.0', '2.2.0' ]
+55 silly lockFile cb68e0d2-query-string-2-2-0 query-string@2.2.0
+56 verbose lock query-string@2.2.0 /home/simon/.npm/cb68e0d2-query-string-2-2-0.lock
+57 silly lockFile c75fe0d4- -@
+58 silly lockFile c75fe0d4- -@
+59 silly lockFile d62dcbf9-ry-string-query-string-2-2-0-tgz https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz
+60 verbose lock https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz /home/simon/.npm/d62dcbf9-ry-string-query-string-2-2-0-tgz.lock
+61 verbose addRemoteTarball [ 'https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz',
+61 verbose addRemoteTarball   'b069235aeccd2f60f5ebb3434170b7a1750b21b5' ]
+62 info retry fetch attempt 1 at 16:24:41
+63 verbose fetch to= /tmp/npm-27762-fU0UdVrw/registry.npmjs.org/query-string/-/query-string-2.2.0.tgz
+64 http GET https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz
+65 http 200 https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz
+66 silly lockFile d62dcbf9-ry-string-query-string-2-2-0-tgz https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz
+67 silly lockFile d62dcbf9-ry-string-query-string-2-2-0-tgz https://registry.npmjs.org/query-string/-/query-string-2.2.0.tgz
+68 silly lockFile cb68e0d2-query-string-2-2-0 query-string@2.2.0
+69 silly lockFile cb68e0d2-query-string-2-2-0 query-string@2.2.0
+70 silly lockFile dea6e4f2-query-string query-string@
+71 silly lockFile dea6e4f2-query-string query-string@
+72 error 404 Not Found
+73 error System Linux 3.13.0-53-generic
+74 error command "/usr/bin/node" "/usr/bin/npm" "install" "-" "--save" "query-string"
+75 error cwd /home/simon/Desktop/founders and Coders/testQueryString
+76 error node -v v0.10.38
+77 error npm -v 1.4.28
+78 error code E404
+79 verbose exit [ 1, true ]
